@@ -1,0 +1,88 @@
+#Login{
+  margin-left: 50%;            
+  transform: translateX(-50%);
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  Box-sizing: border-box;
+  background-color: rgb(246, 247, 248);
+  padding: 15px 10px;
+  border-radius: 0.5cm;
+  position: absolute;
+  border: 1px solid #46C2CB;
+}
+.Login__logo{
+  width: 90px;
+  margin-left: 50%;            
+  transform: translateX(-50%);
+}
+.Login__input {
+  border-radius: 0.2cm;
+  border-color: #46C2CB;
+  height: 7px;
+  padding: 15px;
+  margin: 15px 5px;
+}
+.Login__input-label{
+  margin-left: 10px;
+}
+#Login__button{
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+.Login__button-submit{
+  height: 40px;
+  width: 150px;
+  margin-top: 15px ;
+  background-color: #46C2CB;
+  border-radius: 0.25cm;
+  cursor: pointer;
+}
+.Login__button-submit:hover{
+  background-color: #96f3ff;
+}
+.Login__button-register{
+  height: 40px;
+  width: 150px;
+  margin-top: 15px ;
+  background-color: #46C2CB;
+  border-radius: 0.25cm;
+}
+.Login__button-register:hover{
+  background-color: #96f3ff;
+}
+.Login__password{
+  display: block;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.Login__account{
+  display: flex;
+  justify-content: space-between;
+}
+.Login__account, .Login__ID{
+  
+  display: block;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+}
+#Login__password-show{
+  height: 15px;
+  width: 25px;
+  background-color: #46C2CB;
+  border-radius: 50%;
+}
+.Login__input-label{
+  width:100px;
+}
+.Login__form-check{
+  display: block;
+  flex-direction: column;
+  margin-left: 50%;            
+  transform: translateX(-50%);
+  width: 94px;
+}
